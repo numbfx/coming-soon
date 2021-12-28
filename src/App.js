@@ -2,6 +2,7 @@ import React from 'react';
 import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
 import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import { ReactComponent as IconGithub } from './assets/icons/github.svg';
+import logo from './assets/moonnoobs-logo.png';
 import "./App.css";
 
 class App extends React.Component {
@@ -10,7 +11,7 @@ class App extends React.Component {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">LOGO</a>
+            <a href="."><img src={logo} alt="Logo" /></a>
           </div>
           <div className="social">
             <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer">
@@ -26,7 +27,7 @@ class App extends React.Component {
         </div>
         <div className="content">
           <div className="title-holder">
-            <h1>MoonNoobs</h1>
+            <h1>Mo<sup>o</sup>nNoobs</h1>
             <p>The first decentralized reserve fund on the Aurora NEAR Network.</p>
             <p>Full (Community) DAO governance to help grow and support *adjective* NEAR projects.</p>
           </div>
