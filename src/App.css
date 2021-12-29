@@ -3,8 +3,8 @@
   height: 80%;
   margin: auto;
   min-height: 512px;
-  box-shadow: 0px 35px 70px 0px rgba(255, 163, 125, 0.65), 0px 30px 40px -10px rgba(255, 100, 124, 0.55);
-  background: linear-gradient(180deg, rgba(255, 163, 125, 1) 0%, rgba(255, 99, 124, 1) 100%);
+  box-shadow: 15px 15px 15px 0px #adaccb, 15px 15px 15px -10px #adaccb;
+  background: linear-gradient(180deg, #151159, #423e70 100%);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -38,12 +38,19 @@
 }
 
 .social {
+  position: absolute;
   display: flex;
 }
 
 .social a {
   display: inline-block;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  display: flex;
   margin-right: 12px;
+  margin-left: 12px;
   transition: opacity 0.05s ease;
 }
 
@@ -56,7 +63,7 @@
 }
 
 .social .icon {
-  width: 18px;
+  width: 24px;
   fill: #fff;
 }
 
