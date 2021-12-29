@@ -28,7 +28,7 @@ class App extends React.Component {
               <IconDiscord className="icon" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/MoonNoobsDAO"
               title="Twitter"
               target="_blank"
               rel="noopener noreferrer"
@@ -62,7 +62,7 @@ class App extends React.Component {
               *adjective* NEAR projects.
             </p>
           </div>
-          <a href="mailto:user@example.com">
+          <a href="#">
             <div className="cta">Coming Soon</div>
           </a>
         </div>
