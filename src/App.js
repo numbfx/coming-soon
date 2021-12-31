@@ -5,19 +5,15 @@ import { ReactComponent as IconTwitter } from "./assets/icons/twitter.svg";
 import { ReactComponent as IconGithub } from "./assets/icons/github.svg";
 import { ReactComponent as IconDiscord } from "./assets/icons/Discord-Logo-White.svg";
 import { ReactComponent as IconMedium } from "./assets/icons/medium.svg";
-
-import logo from "./assets/moonnoobs-logo.png";
+import logo from "./assets/moonnoobs-logo-white.png";
 import "./App.css";
 
 class App extends React.Component {
-
   render = () => {
-
     return (
       <div className="card">
         <div className="header">
-          <div className="logo">
-          </div>
+          <div className="logo"></div>
           <div className="social">
             <a
               href="https://discord.gg/PWzzDCdh4U"
@@ -35,39 +31,70 @@ class App extends React.Component {
             >
               <IconTwitter className="icon" />
             </a>
-            <a
-              href="https://github.com/numbfx"
-              title="GitHub"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IconGithub className="icon" />
-            </a>
           </div>
         </div>
         <div className="content">
+
           <div className="title-holder">
             <p>
-            <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: "row", alignItems: "flex-start" }}>
-              <Text style={{ fontFamily: "IBM Plex Sans", fontWeight: "bold", color: "#fff", fontSize: 45, lineHeight: 90 }}>Mo</Text>
-              <Text style={{ fontFamily: "IBM Plex Sans", fontWeight: "bold", color: "#fff", fontSize: 26, lineHeight: 65 }}>o</Text>
-              <Text style={{ fontFamily: "IBM Plex Sans", fontWeight: "bold", color: "#fff", fontSize: 45, lineHeight: 90 }}>nNoobs</Text>
-            </View>
+              <View
+                style={{
+                  justifyContent: "center",
+                  alignItems: "center",
+                  flexDirection: "row",
+                }}
+              ><div>
+                <img src={logo} className="moonlogo" alt="Logo" />
+                </div>
+                <div>
+                
+                  <Text
+                    style={{
+                      fontFamily: "IBM Plex Sans",
+                      fontWeight: "bold",
+                      color: "#fff",
+                      fontSize: 45,
+                    }}
+                  >
+                    Mo
+                  <Text
+                    style={{
+                      fontFamily: "IBM Plex Sans",
+                      fontWeight: "bold",
+                      color: "#fff",
+                      fontSize: 26,
+                      verticalAlign: "super"
+                    }}
+                  >
+                    o
+                  </Text>
+                    nNoobs
+                    {" "}
+                    DAO
+                    </Text>
+                </div>
+              </View>
             </p>
             <p>
-              The first decentralized reserve fund on the Aurora NEAR Network.
+              A Premiere Decentralized Reserve Fund on the Aurora NEAR
+              Network.
             </p>
             <p>
-              Full (Community) DAO governance to help grow and support
-              *adjective* NEAR projects.
+              Growing and supporting cutting edge NEAR projects through DAO
+              governance.
             </p>
           </div>
-          <a href="#">
-            <div className="cta">Coming Soon</div>
+          <a
+            href="https://medium.com/@MoonNoobsDAO/"
+            title="Medium.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="cta">White Paper</div>
           </a>
         </div>
         <div className="footer">
-          <span>Copyright 2021-2022 Cloud-e Corporation, DBA MoonNoobs</span>
+          <span>Copyright 2021-2022 MoonNoobs</span>
         </div>
       </div>
     );

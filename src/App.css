@@ -1,11 +1,10 @@
 .card {
-  width: 90%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   margin: auto;
   min-height: 512px;
-  box-shadow: 15px 15px 15px 0px #adaccb, 15px 15px 15px -10px #adaccb;
-  background: linear-gradient(180deg, #151159, #423e70 100%);
-  border-radius: 10px;
+  background: linear-gradient(180deg, #2f64d1, #5b23bc 100%);
+  border-radius: 0px;
   display: flex;
   flex-direction: column;
 }
@@ -63,17 +62,38 @@
 }
 
 .social .icon {
-  width: 24px;
+  width: 35px;
   fill: #fff;
 }
 
 .content {
   flex: 1 1 auto;
-  min-height: 256px;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
+}
+
+.moonnoobs {
+  flex: 2;
+  min-height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.moonlogo {
+  flex: 2;
+  height: 140px;
+  width: 140px;
+  padding: 20px;
+  vertical-align: middle;
 }
 
 .content .title-holder {
@@ -134,3 +154,12 @@
 a.underlined:hover {
   border-bottom: 1px dotted #fff;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;  
+}
+
+
