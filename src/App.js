@@ -31,6 +31,14 @@ class App extends React.Component {
             >
               <IconTwitter className="icon" />
             </a>
+            <a
+              href="https://medium.com/@MoonNoobsDAO"
+              title="Medium"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconMedium className="icon" />
+            </a>
           </div>
         </div>
         <div className="content">
@@ -85,7 +93,7 @@ class App extends React.Component {
             </p>
           </div>
           <a
-            href="https://medium.com/@MoonNoobsDAO/"
+            href="https://medium.com/@MoonNoobsDAO/moonnoobs-dao-white-paper-38035e120417"
             title="Medium.com"
             target="_blank"
             rel="noopener noreferrer"
