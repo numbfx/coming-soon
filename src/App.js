@@ -32,7 +32,7 @@ class App extends React.Component {
               <IconTwitter className="icon" />
             </a>
             <a
-              href="https://medium.com/@MoonNoobsDAO"
+              href="https://medium.com/moonnoobs-dao"
               title="Medium"
               target="_blank"
               rel="noopener noreferrer"
@@ -84,12 +84,10 @@ class App extends React.Component {
               </View>
             </p>
             <p>
-              A Premiere Decentralized Reserve Fund on the Aurora NEAR
-              Network.
+            🚀ROCKET-PROPELLED💎INVESTING🌕 
             </p>
             <p>
-              Growing and supporting cutting edge NEAR projects through DAO
-              governance.
+            Explosive growth fueled by NEAR ecosystem
             </p>
           </div>
           <a
@@ -102,7 +100,7 @@ class App extends React.Component {
           </a>
         </div>
         <div className="footer">
-          <span>Copyright 2021-2022 MoonNoobs</span>
+          <span>Copyright 2022 MoonNoobs</span>
         </div>
       </div>
     );

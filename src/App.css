@@ -4,7 +4,6 @@
   margin: auto;
   min-height: 512px;
   background: linear-gradient(180deg, #2f64d1, #5b23bc 100%);
-  border-radius: 0px;
   display: flex;
   flex-direction: column;
 }
@@ -13,14 +12,13 @@
   .card {
     width: 100%;
     height: 100%;
-    border-radius: 0;
     box-shadow: none;
   }
 }
 
 .header {
   display: flex;
-  padding: 48px;
+  padding: 35px;
   justify-content: space-between;
   align-items: center;
   color: #fff;
@@ -48,8 +46,8 @@
   align-items: center;
   -webkit-box-pack: center;
   display: flex;
-  margin-right: 12px;
-  margin-left: 12px;
+  margin-right: 13px;
+  margin-left: 5px;
   transition: opacity 0.05s ease;
 }
 
@@ -62,7 +60,7 @@
 }
 
 .social .icon {
-  width: 35px;
+  width: 28px;
   fill: #fff;
 }
 
@@ -85,13 +83,13 @@
   text-align: center;
   align-items: center;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .moonlogo {
   flex: 2;
-  height: 140px;
-  width: 140px;
+  height: 120px;
+  width: 120px;
   padding: 20px;
   vertical-align: middle;
 }
